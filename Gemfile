@@ -42,5 +42,7 @@ group :development, :test do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 
   gem 'bootstrap-sass'
+  gem 'quiet_assets' # To make rails log easier to read
+  gem 'devise'
 end
 

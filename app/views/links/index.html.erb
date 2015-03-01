@@ -1,4 +1,11 @@
-<h1> thi  works </h1>
+<h1> Get your short link </h1>
+
+
+<%=form_tag'/links' do%>
+  <%=label_tag :user_link %> <br>
+  <%=text_field_tag :user_link %> 
+  <%=submit_tag "Submit", :class => "btn btn-default"%>
+<%end%>
 
 
 
